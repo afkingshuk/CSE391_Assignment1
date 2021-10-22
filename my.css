@@ -547,9 +547,15 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 33.3%; /* IE10 */
-  flex: 33.3%;
+  -ms-flex: 10%; /* IE10 */
+  flex: 10%;
   max-width: 33.3%;
+  padding: 0 10px;
+}
+.columnQuote {
+  -ms-flex: 90%; /* IE10 */
+  flex: 90%;
+  max-width: 90%;
   padding: 0 10px;
 }
 
